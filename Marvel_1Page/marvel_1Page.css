@@ -1,0 +1,260 @@
+body{
+    background:url(./Img/Marvel/comic.jpg) no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    margin:0;
+}
+
+.loading-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 7s ease-in both;
+}
+
+.black-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+}
+
+.overlay-photo {
+    max-width: 50%;
+    max-height: 50%;
+    z-index: 3;
+    animation: scaleAndFade 7s ease-in 1 both;
+}
+
+@keyframes scaleAndFade {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        z-index:2;
+    }
+    to {
+        opacity: 0;
+        z-index:0;
+        display: none;
+    }
+}
+.intro_poster{
+  z-index: 1;
+  width:100%;
+}
+.intro_poster img{
+ width:100%;
+ border-radius:0px 0px 20px 20px;
+}
+.nav{
+  background-color: rgba(32, 32, 32);
+  position:relative;
+}
+.navbar {
+  display:grid;
+  grid-template-rows:70px;
+  grid-template-columns:0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.5fr ;
+  justify-items: center;
+  align-items: center;
+}
+.sp2 {
+  background: url("./Img/Marvel/Navbar logo.png");
+  width: 120px;
+  height: 53px;
+  transition: ease all 2s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform-style: preserve-3d;
+}
+.navbar:hover .sp2 {
+	  transform: rotateX(0deg) rotateY(-180deg);
+}
+.navbar:hover .sp2:after {
+	  background-color:white;
+}
+.sp2 .back {
+	  position: absolute;
+	  height: 100%;
+	  width: 100%;
+	  background: url("./Img/Marvel/Navbar logo 2.png");
+	  transform-style: preserve-3d;
+	  transition: ease all 1s;
+	  background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      transform:rotateY(180deg);
+}
+.navbar .sp2:after {
+	  content: '';
+	  z-index: 2;
+	  transition: ease all 1s;
+}
+.hello {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius:10px;
+  width: 60px;
+  height: 55px;
+  background:rgb(82 77 77 / 78%);
+  transition: width 2s;
+}
+
+.hello img{
+ width:50px;
+ align-self:center;
+}
+.hello:hover {
+  width: 300px;
+}
+.navbar .tool {
+  z-index: 2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.navbar .tool:hover {
+  transition:font-size 0.8s,background-color 0.5s,color 0.5s;
+  font-size:1.5em;
+  background-color: white;
+  color:red;
+}
+
+.intro_poster{
+  z-index:1;
+}
+.upcoming{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 0px 0px 20px 20px;
+  position: relative;
+  top:10px;
+  gap:10px;
+}
+
+.upcoming div {
+  box-sizing: border-box;
+  flex: 0 1 250px;
+  max-width: 250px;
+}
+.flip-box{
+  width:250px;
+  height:375px;
+  perspective:1000px;
+  transition: ease all 2.3s;
+}
+.flip-box:hover .inner {
+  transform:rotateY(-180deg);
+}
+.flip-box:hover .inner:after {
+	  background-color: black;
+}
+.inner{
+  width:100%;
+  height:100%;
+  transition:ease all 2s;
+  transform-style:preserve-3d;
+}
+.flip-box .inner::after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  transition: ease all 3s;
+  background: rgba(0, 0, 0, 0);
+  z-index:3;
+}
+.front img{
+  width:250px;
+}
+.front,.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+  overflow:hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+}
+.back{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:black;
+  color:white;
+  transform:rotateY(180deg);
+  z-index:4;
+}
+.back a{
+  color:white;
+  font-size:2em;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  border:1px solid white;
+  padding:20px;
+}
+.back a:hover{
+  background:white;
+  color:black;
+}
+
+.upcoming p {
+  margin: 10px;
+  margin-top: 0;
+  font-size: 1em;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    grid-template-rows:50px 50px 50px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .hello {
+    width: 80px;
+    height: auto;
+    transition: width 0.5s;
+    grid-column: 1 / span 5;
+  }
+
+  .sp2{
+    grid-column: 1 / span 5;
+    width:100px;
+    height:45px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+  .hello img {
+    width: 40px;
+  }
+  .hello:hover {
+    width: 300px;
+  }
+  .navbar .tool:hover {
+  transition:font-size 0.8s,background-color 0.5s,color 0.5s;
+  font-size:1.3em;
+  background-color: white;
+  color:red;
+}
+}

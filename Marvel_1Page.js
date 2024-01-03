@@ -1,0 +1,1 @@
+$(".mobile-menu-button").css("display",'none');
