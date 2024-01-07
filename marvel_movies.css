@@ -241,8 +241,8 @@ body{
     height:284px;
 }
   .flip-box {
-    width: 160px;
-    height: 235px;
+    width: 160px !important;
+    height: 235px !important;
     perspective: 1000px;
     transition: ease all 2.3s;
 }
