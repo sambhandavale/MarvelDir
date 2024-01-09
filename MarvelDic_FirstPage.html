@@ -5,75 +5,101 @@
     <title>Marvel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="marvel_1Page.css">
+    <link rel="stylesheet" href="/Marvel_Movies_CSS/navbar.css">
+    <link rel="stylesheet" href="/Marvel_Movies_CSS/flip-box.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Archivo+Narrow&family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-<div class="loading-overlay">
-    <div class="black-screen"></div>
-    <img src="./Img/Comic Code.png" alt="Overlay Photo" class="overlay-photo">
-</div>
 <div class="nav">
     <div class="navbar">
-        <div class="sp2">
-            <div class="back"></div>
+        <div class="card1">
+            <div class="flip-box1">
+                <div class="front1">
+                    <img src="./Img/Marvel/Navbar logo.png" class="image">
+                </div>
+                <div class="back1">
+                    <img src="./Img/Marvel/Navbar logo 2.png" class="image">
+                </div>
+            </div>
         </div>
-        <div><a href="MarvelDic_FirstPage.html" class="tool 1">Home</a></div>
-        <div><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></div>
-        <div><a href="MarvelDic_Series.html" class="tool 3">Series</a></div>
-        <div><a href="#News" class="tool 4">News</a></div>
-        <div class="contact"><a href="#Contact" class="tool 5">Contact</a></div>
-        <div class="hello"><a href="#search" class="search"><img src="./Img/search icon.png" alt="navbar logo" ></a></div>
-        <button class="mobile-menu-button" onclick="toggleMenu()">Menu</button>
+        <div class="menu"><a href="MarvelDic_FirstPage.html" class="tool 1">Home</a></div>
+        <div class="menu"><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></div>
+        <div class="menu"><a href="MarvelDic_Series.html" class="tool 3">Series</a></div>
+        <div class="menu"><a href="#News" class="tool 4">News</a></div>
+        <div class="menu"><a href="#Contact" class="tool 5">Contact</a></div>
+        <div class="menu"><a href="#More" class="tool 6">More</a></div>
+        <div class="menu hello"><a href="#search" class="search"><img src="./Img/search icon.png" alt="navbar logo" ></a></div>
+        <button class="mobile-menu-button">
+            <div class="min-max">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </button>
+        <div class="drop-menu" style="display:none;">
+            <ul style="padding-left: 30px;">
+                <li class="menu1"><a href="MarvelDic_FirstPage.html" class="tool 1">Home</a></li>
+                <li class="menu1"><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></li>
+                <li class="menu1"><a href="MarvelDic_Series.html" class="tool 3">Series</a></li>
+                <li class="menu1"><a href="#News" class="tool 4">News</a></li>
+                <li class="menu1"><a href="#Contact" class="tool 5">Contact</a></li>
+                <li class="menu1"><a href="#login" class="tool 6">Login</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="intro_poster">
     <img src="./Img/marvellogo.jpg" alt="Marvel Studios">
 </div>
 <div class="upcoming">
-    <div class="the_marvels">
+    <div class="deadpool3 movies">
         <div class="flip-box">
-            <div class="inner">
-                <div class="front">
-                    <img src="./Img/Marvel/phase5/The Marvels.jpg" alt="The marvels">
-                </div>
-                <div class="back">
-                    <a href="https://www.marvel.com/movies/the-marvels">Info</a>
+            <div class="recent">
+                <div class="inner">
+                    <div class="front">
+                        <img src="./Img/Marvel/phase5/Deadpool 3.jpg" alt="Deadpool 3">
+                    </div>
+                    <div class="back">
+                        <a href="https://www.marvel.com/movies/deadpool-3">Info</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="deadpool3">
+    <div class="cap4 movies">
         <div class="flip-box">
-            <div class="inner">
-                <div class="front">
-                    <img src="./Img/Marvel/phase5/Deadpool 3.jpg" alt="Deadpool 3">
-                </div>
-                <div class="back">
-                    <a href="https://www.marvel.com/movies/deadpool-3">Info</a>
+            <div class="recent">
+                <div class="inner">
+                    <div class="front">
+                        <img src="./Img/Marvel/phase5/cap4.jpg" alt="Captain america 4">
+                    </div>
+                    <div class="back">
+                        <a href="https://www.marvel.com/movies/captain-america-brave-new-world">Info</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="cap4">
+    <div class="f4 movies">
         <div class="flip-box">
-            <div class="inner">
-                <div class="front">
-                    <img src="./Img/Marvel/phase5/Captain america 4.jpg" alt="Captain america 4">
-                </div>
-                <div class="back">
-                    <a href="https://www.marvel.com/movies/captain-america-brave-new-world">Info</a>
+            <div class="recent">
+                <div class="inner">
+                    <div class="front">
+                        <img src="./Img/Marvel/phase5/f4.jpg" alt="Fantastic 4">
+                    </div>
+                    <div class="back">
+                        <a href="https://www.marvel.com/movies/fantastic-four">Info</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<br><br>
-<hr>
-<footer style="background-color:black;padding:5px;">
-    <p style="color:white;text-align:center;">©2023 SAM</p>
+<footer>
+    <p>©2023 SAM</p>
 </footer>
 <script src="Marvel_1Page.js"></script>
 </body>

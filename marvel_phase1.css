@@ -6,6 +6,18 @@ body{
   margin:0;
 }
 
+.phase_header h2 {
+  font-family: 'Zen Dots', cursive;
+  text-align: center;
+  font-size:2em;
+  color: white;
+  border-radius:20px;
+  max-width: 200px;
+  position: relative;
+  margin: 10px auto;
+  text-shadow: 3px 1px black;
+}
+
 .movies{
   display:flex;
   gap:10px;
