@@ -96,9 +96,11 @@
 }
 
 .drop-menu ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
 }
 .drop-menu ul li a {
   color: #1d1d24;
@@ -111,6 +113,13 @@
 
 .drop-menu{
   grid-column:span 2;
+}
+
+.drop-menu .slide-menu{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0;
 }
 
 .mobile-menu-button {
@@ -140,6 +149,7 @@
   height:2px;
   background:white;
 }
+
 @media screen and (max-width: 3000px){
    .drop-menu{
    display:none;
@@ -161,7 +171,7 @@
 
 @media screen and (max-width: 600px) {
   .navbar {
-    grid-template-rows:0.9fr !important;
+    grid-template-rows:1fr !important;
     grid-template-columns: 1fr 1fr !important;
   }
   .hello {
