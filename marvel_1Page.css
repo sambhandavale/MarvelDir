@@ -41,8 +41,8 @@ body{
 }
 
 .recent {
-    width: 250px;
-    height: 375px;
+    width: 250px !important;
+    height: 375px !important;
     perspective: 1000px;
     transition: ease all 2.3s;
 }

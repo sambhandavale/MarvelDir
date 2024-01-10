@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Phase 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="marvel_phase1.css">
     <link rel="stylesheet" href="./Marvel_Movies_CSS/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,13 +25,30 @@
                 </div>
             </div>
         </div>
-        <div><a href="index.html" class="tool 1">Home</a></div>
-        <div><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></div>
-        <div><a href="MarvelDic_Series.html" class="tool 3">Series</a></div>
-        <div><a href="#News" class="tool 4">News</a></div>
-        <div class="contact"><a href="#Contact" class="tool 5">Contact</a></div>
-        <div class="contact"><a href="#Contact" class="tool 6">Login</a></div>
-        <div class="hello"><a href="#search" class="search"><img src="./Img/search icon.png" alt="navbar logo" ></a></div>
+        <div class="menu"><a href="index.html" class="tool 1">Home</a></div>
+        <div class="menu"><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></div>
+        <div class="menu"><a href="MarvelDic_Series.html" class="tool 3">Series</a></div>
+        <div class="menu"><a href="#News" class="tool 4">News</a></div>
+        <div class="menu"><a href="#Contact" class="tool 5">Contact</a></div>
+        <div class="menu"><a href="#more" class="tool 6">More</a></div>
+        <div class="menu hello"><a href="#search" class="search"><img src="./Img/search icon.png" alt="navbar logo" ></a></div>
+        <button class="mobile-menu-button">
+            <div class="min-max">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </button>
+        <div class="drop-menu" style="display:none;">
+            <ul style="padding-left: 30px;">
+                <li class="menu1"><a href="index.html" class="tool 1">Home</a></li>
+                <li class="menu1"><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></li>
+                <li class="menu1"><a href="MarvelDic_Series.html" class="tool 3">Series</a></li>
+                <li class="menu1"><a href="#News" class="tool 4">News</a></li>
+                <li class="menu1"><a href="#Contact" class="tool 5">Contact</a></li>
+                <li class="menu1"><a href="#More" class="tool 6">More</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="phase_header">
@@ -361,5 +379,6 @@
         </div>
     </div>
 </div>
+<script src="Marvel_Phase1.js"></script>
 </body>
 </html>

@@ -57,15 +57,7 @@ margin:0;
 
 @media screen and (max-width: 600px) {
   .recent_shows {
-    flex-direction: rows;
-    align-items: center;
-  }
-
-  .recent_shows div {
-    flex-basis: 90%;
-    max-width: 40%;
-    font-size: 0.6em;
-    text-align: right;
+    height: 510px;
   }
   .navbar li a{
   font-size:1em
