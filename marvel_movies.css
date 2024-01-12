@@ -88,20 +88,46 @@ body{
 .phase li{
   padding:5px;
 }
+
+.more-wrapper{
+    display:flex;
+    gap:10px;
+}
+
+.more-wrapper .show-logo{
+    width: 120px;
+    height: 45px;
+}
+
+.more-wrapper .show-logo img{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+    border:5px solid #332941;
+}
+
 .more{
   display:flex;
   background-color:#C51605;
-  width:100px;
+  width:110px;
+  height:35px;
   padding:5px;
   border-radius:10px;
   justify-content: center;
+  align-items: center;
+  border:5px solid #EEC759;
 }
 .more a{
   text-decoration:none;
   color:White;
-  text-shadow: 3px 1px black;
   text-align:center;
 }
+
+.more-wrapper .more-a{
+    text-decoration:none;
+    color:white;
+}
+
 .phase p{
  max-width:1200px;
  font-family: 'Poppins', sans-serif;
@@ -116,13 +142,14 @@ body{
 .phase .phase_photo{
   display:flex;
   align-self:center;
-  justify-content: right;
+  justify-content: center;
   max-width: 50%;
 }
 
 .phase_photo img{
-  width:100%;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 70%);
+    width: 400px;
+    height: 575px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 70%);
 }
 
 .phase_content .summary_title{
