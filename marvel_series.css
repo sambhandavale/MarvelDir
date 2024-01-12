@@ -85,7 +85,8 @@ margin:0;
 
 .shows_summary_grid img{
    box-shadow: 0 2px 8px rgb(0 0 0 / 70%);
-   max-width:400px;
+   width: 375px;
+   height: 550px;
 }
 .content h2{
   padding:20px 0 20px 0;
@@ -136,7 +137,9 @@ margin:0;
     background-color: rgba(32, 32, 32, 0.8);
     box-shadow: 0 2px 8px rgb(0 0 0 / 70%);
     border-radius: 0px 0px 20px 20px;
-    position: relative;
+    position:relative;
+    bottom:15px;
+    gap:10px;
 }
 .shows img{
   transition: width 0.5s;
@@ -167,19 +170,33 @@ margin:0;
   font-size: 1em;
   color:white;
 }
-.image{
+
+.shows .series{
+    width: 200px;
+    height: 360px;
+    padding: 5px;
+}
+.show-poster{
     display: flex;
     align-items: center;
     justify-content: center
 }
 @media screen and (max-width: 600px) {
     .Netflix h3{
-    font-size:1.3em;
+        font-size:1.3em;
     }
     .flip-box {
-    width: 160px !important;
-    height: 235px !important;
-    perspective: 1000px;
-    transition: ease all 2.3s;
-}
+        width: 160px !important;
+        height: 235px !important;
+        perspective: 1000px;
+        transition: ease all 2.3s;
+    }
+    .shows_summary_grid img{
+        width: 300px;
+        height: 450px;
+    }
+    .shows .series{
+        width: 150px;
+        height: 284px;
+    }
 }

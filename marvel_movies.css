@@ -86,7 +86,9 @@ body{
   box-shadow: 0 2px 8px rgb(0 0 0 / 70%);
 }
 .phase li{
-  padding:5px;
+    padding:5px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.2em;
 }
 
 .more-wrapper{
@@ -129,8 +131,8 @@ body{
 }
 
 .phase p{
- max-width:1200px;
- font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 .phase1_content{
   display:flex;
@@ -153,12 +155,12 @@ body{
 }
 
 .phase_content .summary_title{
-  align-self:center;
+  font-family: 'Roboto Slab', serif;
 }
 .movies{
   padding:5px;
   width:200px;
-  height:350px;
+  height:360px;
 }
 .phase_movies {
   display: flex;
@@ -196,6 +198,20 @@ body{
   font-size: 1em;
 }
 
+.phase_movies .years{
+    font-size:0.7em;
+}
+
+footer{
+    background:black;
+    padding:5px;
+    margin-top:100px;
+}
+
+footer p{
+    color:white;
+    text-align:center;
+}
 
 @media screen and (max-width: 600px) {
   .navbar {
@@ -246,7 +262,8 @@ body{
   }
 
   .phase_photo img {
-    width: 100%;
+    width: 300px;
+    height: 450px;
   }
 
   .phase_content {
