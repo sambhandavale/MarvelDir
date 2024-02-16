@@ -23,6 +23,7 @@ body{
   gap:10px;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 10px;
 }
 .box {
   position: relative;
@@ -73,6 +74,7 @@ body{
 }
 .cap3{
   background: url(./Img/Marvel/phase3/cap3/6.jpg) no-repeat;
+  background-size: cover;
 }
 .hulk{
   background: url(./Img/Marvel/phase1/Hulk/7.jpg) no-repeat;
@@ -94,6 +96,19 @@ body{
 }
 .gotg2{
   background: url(./Img/Marvel/phase3/gotg2/6.jpg) no-repeat;
+  background-size: cover;
+}
+.spiderman1{
+  background: url(./Img/Marvel/phase3/spiderman1/6.jpg) no-repeat;
+  background-size: cover;
+}
+.thor3{
+  background: url(./Img/Marvel/phase3/thor3/6.jpg) no-repeat;
+  background-size: cover;
+}
+.blackpanther1{
+  background: url(./Img/Marvel/phase3/blackpanther1/6.jpg) no-repeat;
+  background-size: cover;
 }
 .cover img {
   width: 100%;
