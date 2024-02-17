@@ -125,6 +125,10 @@ body{
 .avengers4{
   background: url(./Img/Marvel/phase3/avengers4/6.jpg) no-repeat;
 }
+.spiderman2{
+  background: url(./Img/Marvel/phase3/spiderman2/6.jpg) no-repeat;
+  background-size: cover;
+}
 .cover img {
   width: 100%;
   max-width: 750px;
