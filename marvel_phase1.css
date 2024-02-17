@@ -35,6 +35,7 @@ body{
   width: 700px;
   box-shadow: 0 2px 8px rgb(0 0 0 / 70%);
   background-size: cover;
+  background-position:center;
 }
 .ironman{
   background: url(./Img/Marvel/phase1/ironman/6.jpg) no-repeat;
@@ -109,6 +110,20 @@ body{
 .blackpanther1{
   background: url(./Img/Marvel/phase3/blackpanther1/6.jpg) no-repeat;
   background-size: cover;
+}
+.avengers3{
+  background: url(./Img/Marvel/phase3/avengers3/6.jpg) no-repeat;
+}
+.antman2{
+  background: url(./Img/Marvel/phase3/antman2/6.jpg) no-repeat;
+  background-size: cover;
+}
+.captainmarvel{
+  background: url(./Img/Marvel/phase3/captainmarvel/6.jpg) no-repeat;
+  background-size: cover;
+}
+.avengers4{
+  background: url(./Img/Marvel/phase3/avengers4/6.jpg) no-repeat;
 }
 .cover img {
   width: 100%;
