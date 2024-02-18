@@ -6,7 +6,7 @@
 .navbar {
   display:grid;
   grid-template-rows:70px;
-  grid-template-columns:0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.5fr ;
+  grid-template-columns:0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.5fr ;
   justify-items: center;
   align-items: center;
 }
@@ -70,6 +70,7 @@
   text-align: center;
   text-decoration: none;
   font-size: 1.2em;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 .navbar .tool:hover {
   transition:font-size 0.8s,background-color 0.5s,color 0.5s;
