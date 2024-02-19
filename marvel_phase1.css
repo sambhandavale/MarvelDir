@@ -39,58 +39,55 @@ body{
 }
 .ironman{
   background: url(./Img/Marvel/phase1/ironman/6.jpg) no-repeat;
+    background-size: cover;
 }
 .hulk{
   background: url(./Img/Marvel/phase1/Hulk/7.jpg) no-repeat;
+    background-size: cover;
 }
 .ironman2{
   background: url(./Img/Marvel/phase1/ironman2/8.jpg) no-repeat;
+    background-size: cover;
 }
 .thor{
   background: url(./Img/Marvel/phase1/Thor/2.jpg) no-repeat;
+    background-size: cover;
 }
 .cap{
   background: url(./Img/Marvel/phase1/Cap1/1.jpg) no-repeat;
+    background-size: cover;
 }
 .avengers{
   background: url(./Img/Marvel/phase1/avengers/5.jpg) no-repeat;
+    background-size: cover;
 }
 .ironman3{
   background: url(./Img/Marvel/phase2/ironman3/6.jpg) no-repeat;
+    background-size: cover;
 }
 .thor2{
   background: url(./Img/Marvel/phase2/Thor2/6.jpg) no-repeat;
+    background-size: cover;
 }
 .cap2{
   background: url(./Img/Marvel/phase2/cap2/8.jpg) no-repeat;
+    background-size: cover;
 }
 .gotg{
   background: url(./Img/Marvel/phase2/gotg/5.jpg) no-repeat;
+    background-size: cover;
 }
 .avengers2{
   background: url(./Img/Marvel/phase2/avengers2/8.jpg) no-repeat;
+    background-size: cover;
 }
 .antman{
   background: url(./Img/Marvel/phase2/antman/1.jpg) no-repeat;
+    background-size: cover;
 }
 .cap3{
   background: url(./Img/Marvel/phase3/cap3/6.jpg) no-repeat;
   background-size: cover;
-}
-.hulk{
-  background: url(./Img/Marvel/phase1/Hulk/7.jpg) no-repeat;
-}
-.ironman2{
-  background: url(./Img/Marvel/phase1/ironman2/8.jpg) no-repeat;
-}
-.thor{
-  background: url(./Img/Marvel/phase1/Thor/2.jpg) no-repeat;
-}
-.cap{
-  background: url(./Img/Marvel/phase1/Cap1/1.jpg) no-repeat;
-}
-.avengers{
-  background: url(./Img/Marvel/phase1/avengers/5.jpg) no-repeat;
 }
 .doctorstrange{
   background: url(./Img/Marvel/phase3/doctorstrange/6.jpg) no-repeat;
@@ -124,6 +121,7 @@ body{
 }
 .avengers4{
   background: url(./Img/Marvel/phase3/avengers4/6.jpg) no-repeat;
+    background-size: cover;
 }
 .spiderman2{
   background: url(./Img/Marvel/phase3/spiderman2/6.jpg) no-repeat;
