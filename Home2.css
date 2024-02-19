@@ -1,0 +1,108 @@
+body {
+    background: url('./Img/cosmos.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+.main-box{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+}
+
+.main-box .left-box{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:20px;
+    padding-bottom: 200px;
+
+}
+
+.main-box .right-box{
+    width: 40%;
+}
+
+.main-box .search-container{
+    max-height: 160px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box .search-container .searchbar{
+    width:584px;
+    height:40px;
+    background:white;
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 24px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-box .search-container .searchbar #search-input{
+    position:relative;
+    left:20px;
+    border:0;
+    outline: none;
+    width:450px;
+}
+
+.main-box .search-container .searchbar .line{
+    height:42px;
+    width:2px;
+    background:black;
+}
+
+.main-box .search-container .searchbar .submit-button{
+    background-image: url('./Img/search icon 2.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.main-box .search-container .searchbar .submit-button:hover {
+    opacity: 0.8;
+}
+
+
+.main-box .tag-line h2{
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    font-size:3em;
+}
+
+.main-box .watcher{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-box .watcher img{
+    width:300px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    padding: 10px 0;
+    margin:0;
+}

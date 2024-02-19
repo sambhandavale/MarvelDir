@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Phase 3</title>
+<meta charset="UTF-8">
+    <title>Marvel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marvel_1Page.css">
     <link rel="icon" href="./Img/Marvel/marvel_favicon.png">
-    <link rel="stylesheet" href="marvel_phase1.css">
+    <link rel="stylesheet" href="Home2.css">
     <link rel="stylesheet" href="./Marvel_Movies_CSS/navbar.css">
+    <link rel="stylesheet" href="./Marvel_Movies_CSS/flip-box.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bree+Serif&family=Cinzel+Decorative&family=Croissant+One&family=Lobster&family=Roboto+Slab&family=Shippori+Antique+B1&family=Teko:wght@300&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Archivo+Narrow&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <style>
-      .still_in_works_box{
-        width:100%;
-        height:100vh;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-      }
-    </style>
 </head>
-<body style="background:black;">
+<body>
 <div class="nav">
     <div class="navbar">
         <div class="card1">
@@ -38,8 +30,8 @@
         <div class="menu"><a href="index.html" class="tool 1">Home</a></div>
         <div class="menu"><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></div>
         <div class="menu"><a href="MarvelDic_Series.html" class="tool 3">Series</a></div>
-        <div class="menu"><a href="#Characters" class="tool 4">Characters</a></div>
-        <div class="menu"><a href="#more" class="tool 6">More</a></div>
+        <div class="menu"><a href="Not bulit yet.html" class="tool 4">Characters</a></div>
+        <div class="menu"><a href="Not bulit yet.html" class="tool 6">More</a></div>
         <div class="menu hello"><a href="#search" class="search"><img src="./Img/search icon.png" alt="navbar logo" ></a></div>
         <button class="mobile-menu-button">
             <div class="min-max">
@@ -53,19 +45,38 @@
                 <li class="menu1"><a href="index.html" class="tool 1">Home</a></li>
                 <li class="menu1"><a href="MarvelDic_Movies.html" class="tool 2">Movies</a></li>
                 <li class="menu1"><a href="MarvelDic_Series.html" class="tool 3">Series</a></li>
-                <li class="menu1"><a href="#Characters" class="tool 4">Characters</a></li>
-                <li class="menu1"><a href="#More" class="tool 6">More</a></li>
+                <li class="menu1"><a href="Not bulit yet.html" class="tool 4">Characters</a></li>
+                <li class="menu"><a href="Not bulit yet.html" class="tool 5">Contact</a></li>
+                <li class="menu1"><a href="Not bulit yet.html" class="tool 6">More</a></li>
             </ul>
         </div>
     </div>
 </div>
-<div class="still_in_works_box">
-  <div class="still_in_works">
-    <img src="./Img/work_ongoing.jpg" alt="cover">
-  </div>
+<div class="main-box">
+    <div class="left-box">
+        <div class="tag-line">
+        <h2>Voyage Through Marvel's Dimensions</h2>
+    </div>
+        <div class="search-container">
+        <div class="searchbar">
+            <input type="text" id="search-input" placeholder="Search...">
+            <div class="line"></div>
+            <div class="submit-box">
+                <input type="submit" class="submit-button">
+            </div>
+        </div>
+        <div class="autocomplete-results" id="autocomplete-results"></div>
+    </div>
+    </div>
+    <div class="right-box">
+        <div class="watcher">
+        <img src="./Img/Marvel/watcher.png">
+    </div>
+    </div>
 </div>
-<script src="menubar.js"></script>
+<footer>
+    <p>©2023 SAM</p>
+</footer>
+<script src="Home.js"></script>
 </body>
-</html>
-
 </html>
